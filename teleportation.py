@@ -6,7 +6,6 @@ from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 #   2. Place qubit 0 in "init_qc" in a quantum state of your choice
 #   3. Combine your circuit with the `teleportation` circuit defined below
 #   4. After execution, qubit 3 is now in the state of your choice!
-# --> REMOVE THIS LINE!!!
 qr = QuantumRegister(3, name="q")
 crz, crx = ClassicalRegister(1, name="crz"), ClassicalRegister(1, name="crx")
 crb = ClassicalRegister(1, name="crb")
